@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.mid
+*.MID
+130000_Pop_Rock_Classical_Videogame_EDM_MIDI_Archive\[6_19_15\]/
