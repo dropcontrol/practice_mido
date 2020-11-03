@@ -75,9 +75,8 @@ def isGM(midifilename):
         if repattern.match(hexData):
             return True
             break
-        else:
-            return False
-            break
+    
+    return False
     
     
 
@@ -90,9 +89,8 @@ def isGS(midifilename):
         if repattern.match(hexData):
             return True
             break
-        else:
-            return False
-            break
+    
+    return False
 
 def isXG(midifilename):
     import re
@@ -103,9 +101,8 @@ def isXG(midifilename):
         if repattern.match(hexData):
             return True
             break
-        else:
-            return False
-            break
+            
+    return False
 
 def isGMGSXG(midifilename):
     if isGM(midifilename):
